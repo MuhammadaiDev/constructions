@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+  }
+  :root {
+    --mainbgcolor: #514c4c;
+    --maincolor: #e1251a;
+    --iconcolor: #fbe201;
+    --li: #fff;
+    --black: #000000;
+  }
+  body {
+    margin: 0;
+    font-family: Arial;
+  }
+  
+  .photoheader {
+    text-align: center;
+    padding: 32px;
+    background: linear-gradient(180deg, #ff9913,#f18080,#ff9913);
+  }
+  
+  .photorow {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+    
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .photocolumn {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .photocolumn img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  .photoheader h1{
+      text-transform: uppercase;
+      color: var(--iconcolor);
+      font-weight: 900;
+  }
+  .photoheader .specialtext{
+      
+      color: var(--maincolor);
+      font-weight: 900;
+  }
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .photocolumn {
+      -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .photocolumn {
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 100%;
+    }
+  }

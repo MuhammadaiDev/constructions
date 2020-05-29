@@ -1,0 +1,48 @@
+.aboutuspage{
+    padding: 40px;
+}
+.bgimagewrapper{
+  width: 100% ;
+}
+.myimagebg{
+    position: relative;
+   
+   
+    
+    z-index: 999;
+    box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.4);
+}
+.aboutuscontainer{
+    background-color: white;
+    border-radius: 10px;
+    position: absolute;
+    width: auto;
+   height: 300px;
+   left: 55px;
+    bottom: 0px;
+    top: 60px;
+    z-index: 1000;
+   
+    padding: 20px 30px 20px 30px;
+}
+.aboutuscontainer h1{
+    border-bottom: 1px solid black;
+}
+.aboutuscontainer ul{
+    padding: 0;
+    list-style-type: none;
+}
+.aboutuscontainer ul li {
+    border-bottom: 1px solid black;
+    padding: 5px;
+}
+.aboutuscontainer .speciallist{
+    font-size: 40px;
+    font-weight: 800;
+}
+/* @media only screen and (max-width: 1000px) {
+    .bgimagewrapper {
+        margin-right: 30px;
+        
+    }
+  } */
