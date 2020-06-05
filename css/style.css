@@ -16,6 +16,7 @@
     
     color: var(--li);
     background-color: var(--maincolor);
+    padding: 1px;
   }
   .notificationtop p{
     
@@ -222,6 +223,16 @@ footer{
 }
   .socialcolors {
     color: var(--iconcolor);
+  }
+  .copyrightone{
+    background-color: var(--black) ;
+    padding: 20px 0 20px 0;
+  }
+  .copyrightone p {
+    color: var(--li);
+    font-weight: 600;
+    
+  
   }
   .copyright{
     background-color: var(--black) ;
@@ -500,6 +511,7 @@ cursor: pointer;
   margin-top: 10px;
 }
 .mainspecialfooter{
+  padding: 60px 0px 60px 0px;
   background-color: var(--mainbgcolor);
   color: var(--li);
   display: flex;
